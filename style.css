@@ -60,5 +60,18 @@ body {
 .btnBox {
   text-align: center;
   margin: 7px 0 17px 0;
+}
 
+@media (max-width:700px) {
+  .board {
+    width: 406px;
+    height: 406px;
+  }
+
+  .square {
+    width: 133.3px;
+    height: 134px;
+    font-size: 100px;
+    line-height: 133px;
+  }
 }
